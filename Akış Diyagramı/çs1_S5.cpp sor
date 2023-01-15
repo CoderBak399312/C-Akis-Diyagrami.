@@ -1,0 +1,32 @@
+/*
+	 Kullanýcý klavyeden rastgele pozitif sayýlar girecektir. Bu iþlem kullanýcý sýfýr sayýsýný girene kadar devam edecektir . Kullanýcý sýfýr sayýsý girene kadar
+toplam kaç adet tek ve çift sayý girildiðini hesaplayan programýn kodunu yazýnýz .
+*/
+
+#include<stdio.h>
+main()
+{
+	int sayi;
+	int tek, cift;
+	for(int i=0 ; true ;i++)
+	{
+		printf("DEGER : ");
+		scanf("%d",&sayi);
+		if(sayi == 0)
+		{
+			break;
+		}
+		else if(sayi % 2 == 0)
+		{
+		//	printf("CÝFT : %d",cift);
+		}
+		else if(sayi % 2 == 1)
+		{
+		//	printf("TEK : %d",tek);
+		}
+	}
+	printf("CÝFT : %d\n",cift);
+	printf("TEK : %d\n",tek);
+	
+	return 0;
+}
